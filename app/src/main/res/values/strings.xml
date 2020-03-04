@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LifeCycleActivity</string>
+    <string-array name="FruitItem">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Mango</item>
+        <item>Papaya</item>
+        <item>StrawBerry</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:entries="@array/FruitItem"
+        android:id="@+id/fruit_items"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="choose"
+        android:layout_marginTop="20dp"
+        android:text="choose_btn"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/fruit_txt"
+        android:layout_marginTop="20dp"
+        android:textColor="#68f"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="order"
+        android:layout_marginTop="20dp"
+        android:text="order_fruit"/>
+
+</LinearLayout>
